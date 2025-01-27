@@ -15,6 +15,12 @@ def welcome_assignment_answers(question):
         answer = "No"
     elif question == "Is MD5 a secured hashing algorithm? - Yes/No":
         answer = "No" 
+    elif question == "In Slack, what is the secret passphrase posted in the #lab-python-getting-started channel posted by a TA?":
+        answer = "pcap"
+    elif question == "What is the SHA256 hashing value of your NYU email and use the answer in your code - ":
+        answer = "dee212d362e67993a8fa53dd08ed2dfbef0ecade6f232428ec83f81b1df1b76a"
+
+
     else: 
         ### you should understand why this else case should be included
         ### what happens if there is a typo in one of the questions?
